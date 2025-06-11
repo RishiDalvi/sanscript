@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sansript: A Sanskrit-Based Programming Language  
 
 **Sansript** is a programming language inspired by the rich heritage of Sanskrit. It allows users to write code in Sanskrit, adhering to a modern programming paradigm, and supports execution by translating Sanskrit code into Python.  
@@ -97,3 +98,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## 📞 Support  
 
 If you have any questions, suggestions, or issues, feel free to create an issue in the repository or contact us at: [khunti2005@gmail.com].  
+=======
+# sanscript
+>>>>>>> fc4f8efe32fe3083380a59ba34f9f2465379bdb3
