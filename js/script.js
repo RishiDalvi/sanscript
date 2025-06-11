@@ -2,11 +2,11 @@ let pyodide; // Global variable for Pyodide
 let executorLoaded = false; // Flag to track if executor.py is loaded
 
 SansriptFiles = [
-    "http://localhost:8000/modules/executor.py",
-    "http://localhost:8000/modules/parser.py",
-    "http://localhost:8000/modules/tokenizer.py",
-    "http://localhost:8000/modules/validator.py",
-    "http://localhost:8000/modules/codegenerator.py",
+    "https://sanscript.netlify.app/modules/executor.py",
+    "https://sanscript.netlify.app/modules/parser.py",
+    "https://sanscript.netlify.app/modules/tokenizer.py",
+    "https://sanscript.netlify.app/modules/validator.py",
+    "https://sanscript.netlify.app/modules/codegenerator.py",
 ];
 
 // Function to initialize Pyodide and load all required files
