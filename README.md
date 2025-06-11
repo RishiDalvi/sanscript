@@ -4,7 +4,7 @@
 **Sansript** is a programming language inspired by the rich heritage of Sanskrit. It allows users to write code in Sanskrit, adhering to a modern programming paradigm, and supports execution by translating Sanskrit code into Python.  
 
 ## 🔗 Website  
-Explore the language and try it online at: [Sansript Playground](https://Sansript.vercel.app/)
+Explore the language and try it online at: [Sansript Playground](https://sanscript.netlify.app/)
 
 ## 🌟 Features  
 - **Write Code in Sanskrit**: Use Sanskrit-based syntax for writing programs.  
@@ -62,7 +62,7 @@ cd Sansript
    Execute the modules manually for testing and experimentation.  
 
 ### Online Playground  
-Visit the official [Sansript Playground](https://Sansript.vercel.app/) to write and execute Sansript programs directly in your browser.
+Visit the official [Sansript Playground](https://sanscript.netlify.app/) to write and execute Sansript programs directly in your browser.
 
 ---
 
@@ -98,6 +98,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## 📞 Support  
 
 If you have any questions, suggestions, or issues, feel free to create an issue in the repository or contact us at[rishi_master@proton.me].  
-=======
-# sanscript
->>>>>>> fc4f8efe32fe3083380a59ba34f9f2465379bdb3
