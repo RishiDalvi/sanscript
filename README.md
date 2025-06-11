@@ -67,7 +67,7 @@ Visit the official [Sansript Playground](https://Sansript.vercel.app/) to write 
 ---
 
 ## 📜 Syntax and Documentation  
-For a comprehensive guide to Sansript's syntax, keywords, and examples, refer to [`documentation.md`](documentation.md) or [Sansript Playground](https://Sansript.vercel.app/)
+For a comprehensive guide to Sansript's syntax, keywords, and examples, refer to [`documentation.md`](documentation.md)
 
 ---
 
@@ -97,7 +97,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## 📞 Support  
 
-If you have any questions, suggestions, or issues, feel free to create an issue in the repository or contact us at: [khunti2005@gmail.com].  
+If you have any questions, suggestions, or issues, feel free to create an issue in the repository or contact us at[rishi_master@proton.me].  
 =======
 # sanscript
 >>>>>>> fc4f8efe32fe3083380a59ba34f9f2465379bdb3
