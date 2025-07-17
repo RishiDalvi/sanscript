@@ -6,9 +6,9 @@ require.config({
 
 require(["vs/editor/editor.main"], function() {
     // Define custom Sanskrit language
-    monaco.languages.register({ id: "Sansript" });
+    monaco.languages.register({ id: "Sanscript" });
 
-    monaco.languages.setMonarchTokensProvider("Sansript", {
+    monaco.languages.setMonarchTokensProvider("Sanscript", {
         tokenizer: {
             root: [
                 [/\/\/[^\n]*|\/\*.*?\*\//, "comment"], // Comments
@@ -35,7 +35,7 @@ require(["vs/editor/editor.main"], function() {
     // Create Monaco Editor instance
     const editor = monaco.editor.create(document.getElementById("editor"), {
         value: `//press ctrl + SPACE for quick suggestions\n//press F1 to open command palette\n\nकार्य मुख्यः() {\n\tमुद्रणम्("नमस्ते विश्व!");\n}`,
-        language: "Sansript",
+        language: "Sanscript",
         theme: "vs-dark",
         automaticLayout: true,
         lineNumbers: "on",
@@ -68,7 +68,7 @@ require(["vs/editor/editor.main"], function() {
     // Make editor accessible globally
     window.editor = editor;
 
-    monaco.languages.registerCompletionItemProvider("Sansript", {
+    monaco.languages.registerCompletionItemProvider("Sanscript", {
         provideCompletionItems: function(model, position) {
             return {
                 suggestions: [{

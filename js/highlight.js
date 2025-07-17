@@ -1,4 +1,4 @@
-Prism.languages.Sansript = {
+Prism.languages.Sanscript = {
     comment: {
         pattern: /\/\/[^\n]*|\/\*.*?\*\//gmu,
         greedy: true,

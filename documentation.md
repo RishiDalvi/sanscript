@@ -1,4 +1,4 @@
-# Sansript : Sanskrit-based Programming Language
+# Sanscript : Sanskrit-based Programming Language
 
 This programming language is based on Sanskrit keywords and operators. The language includes features like variables, basic operations, loops, conditions, and built-in functions, all expressed in Sanskrit.
 

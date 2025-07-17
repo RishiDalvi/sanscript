@@ -1,10 +1,10 @@
 <<<<<<< HEAD
-# Sansript: A Sanskrit-Based Programming Language  
+# Sanscript: A Sanskrit-Based Programming Language  
 
-**Sansript** is a programming language inspired by the rich heritage of Sanskrit. It allows users to write code in Sanskrit, adhering to a modern programming paradigm, and supports execution by translating Sanskrit code into Python.  
+**Sanscript** is a programming language inspired by the rich heritage of Sanskrit. It allows users to write code in Sanskrit, adhering to a modern programming paradigm, and supports execution by translating Sanskrit code into Python.  
 
 ## 🔗 Website  
-Explore the language and try it online at: [Sansript Playground](https://sanscript.netlify.app/)
+Explore the language and try it online at: [Sanscript Playground](https://sanscript.netlify.app/)
 
 ## 🌟 Features  
 - **Write Code in Sanskrit**: Use Sanskrit-based syntax for writing programs.  
@@ -14,7 +14,7 @@ Explore the language and try it online at: [Sansript Playground](https://sanscri
   - **Validator**: Validates the AST for correctness.  
   - **Code Generator**: Converts the AST into Python code.  
   - **Executor**: Executes the generated Python code.  
-- **Playground**: A web-based code editor for writing and testing Sansript programs.  
+- **Playground**: A web-based code editor for writing and testing Sanscript programs.  
 - **Client-Side Execution**: Powered by [Pyodide](https://pyodide.org/), Python code runs directly in the browser.  
 - **Documentation**: Detailed features and syntax are available in `documentation.md`.  
 
@@ -23,7 +23,7 @@ Explore the language and try it online at: [Sansript Playground](https://sanscri
 ## 🖥️ Project Structure  
 
 ```plaintext
-Sansript/
+Sanscript/
 ├── modules/
 │   ├── tokenizer.py         # Tokenizes the Sanskrit code  
 │   ├── parser.py            # Generates the AST  
@@ -47,8 +47,8 @@ Sansript/
 
 ### Clone the Repository  
 ```bash
-git clone https://github.com/RishiDalvi/Sansript.git
-cd Sansript
+git clone https://github.com/RishiDalvi/Sanscript.git
+cd Sanscript
 ```
 
 ### Running Locally  
@@ -62,17 +62,17 @@ cd Sansript
    Execute the modules manually for testing and experimentation.  
 
 ### Online Playground  
-Visit the official [Sansript Playground](https://sanscript.netlify.app/) to write and execute Sansript programs directly in your browser.
+Visit the official [Sanscript Playground](https://sanscript.netlify.app/) to write and execute Sanscript programs directly in your browser.
 
 ---
 
 ## 📜 Syntax and Documentation  
-For a comprehensive guide to Sansript's syntax, keywords, and examples, refer to [`documentation.md`](documentation.md)
+For a comprehensive guide to Sanscript's syntax, keywords, and examples, refer to [`documentation.md`](documentation.md)
 
 ---
 
 ## 🌐 Website Features  
-- **Code Editor**: Write Sansript programs in a syntax-highlighted editor.  
+- **Code Editor**: Write Sanscript programs in a syntax-highlighted editor.  
 - **Execution Engine**: Run programs directly in the browser using Pyodide.  
 - **Thematic Design**: An old-paper style vintage theme for aesthetics.  
 

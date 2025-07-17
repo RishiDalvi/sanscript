@@ -1,7 +1,7 @@
 let pyodide; // Global variable for Pyodide
 let executorLoaded = false; // Flag to track if executor.py is loaded
 
-SansriptFiles = [
+SanscriptFiles = [
     "https://sanscript.netlify.app/modules/executor.py",
     "https://sanscript.netlify.app/modules/parser.py",
     "https://sanscript.netlify.app/modules/tokenizer.py",
@@ -19,7 +19,7 @@ async function initializePyodide() {
 
     if (!executorLoaded) {
         // Load all required files once
-        for (const fileUrl of SansriptFiles) {
+        for (const fileUrl of SanscriptFiles) {
             const response = await fetch(fileUrl);
             console.log(response);
             if (!response.ok) {
@@ -90,7 +90,7 @@ async function saveCode() {
     const url = URL.createObjectURL(blob);
     const a = document.createElement("a");
     a.href = url;
-    a.download = "Sansript.vds";
+    a.download = "Sanscript.vds";
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
