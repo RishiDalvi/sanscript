@@ -114,10 +114,12 @@ We welcome contributions from the open-source community.
 
 ## 🛡 License
 
-This project is licensed under the **MIT License**.  
-You are free to use, modify, and distribute it with attribution.
+This project is dual-licensed under:
 
-See [`LICENSE`](LICENSE) for full details.
+- [MIT License](LICENSE-MIT)
+- [Apache License 2.0](LICENSE-APACHE)
+
+You may choose either license to use this project under.
 
 ---
 
