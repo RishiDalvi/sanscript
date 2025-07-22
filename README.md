@@ -1,100 +1,146 @@
-<<<<<<< HEAD
-# Sanscript: A Sanskrit-Based Programming Language  
+# 🪷 Sanscript: A Sanskrit-Based Programming Language
 
-**Sanscript** is a programming language inspired by the rich heritage of Sanskrit. It allows users to write code in Sanskrit, adhering to a modern programming paradigm, and supports execution by translating Sanskrit code into Python.  
-
-## 🔗 Website  
-Explore the language and try it online at: [Sanscript Playground](https://sanscript.netlify.app/)
-
-## 🌟 Features  
-- **Write Code in Sanskrit**: Use Sanskrit-based syntax for writing programs.  
-- **Modules for Language Processing**:
-  - **Tokenizer**: Processes the code into tokens.  
-  - **Parser**: Generates the Abstract Syntax Tree (AST).  
-  - **Validator**: Validates the AST for correctness.  
-  - **Code Generator**: Converts the AST into Python code.  
-  - **Executor**: Executes the generated Python code.  
-- **Playground**: A web-based code editor for writing and testing Sanscript programs.  
-- **Client-Side Execution**: Powered by [Pyodide](https://pyodide.org/), Python code runs directly in the browser.  
-- **Documentation**: Detailed features and syntax are available in `documentation.md`.  
+**Sanscript** is a modern programming language that brings the elegance of Sanskrit into software development. It allows developers to write code using Sanskrit-based syntax and translates it into executable Python code. This project is built with love and precision, combining linguistic heritage with the power of Pyodide.
 
 ---
 
-## 🖥️ Project Structure  
+## 🔗 Live Website
 
-```plaintext
+👉 [Sanscript Playground](https://sanscript.netlify.app/)
+
+Write, test, and execute Sanskrit code directly in your browser.
+
+---
+
+## 🌟 Features
+
+- 🔤 **Sanskrit Syntax**: Variables, loops, functions, and conditions in Sanskrit.
+- 🧠 **Modular Language Engine**:
+  - `tokenizer.py`: Converts Sanskrit code into tokens
+  - `parser.py`: Builds the Abstract Syntax Tree (AST)
+  - `validator.py`: Validates the AST
+  - `codegenerator.py`: Generates Python code from AST
+  - `executor.py`: Executes the generated Python
+- 🧪 **In-Browser Execution**: Powered by [Pyodide](https://pyodide.org/)
+- 🎮 **Interactive Playground**: Try the language in real-time
+- 📜 **Beautiful UI**: Old paper-style theme with syntax highlighting
+- 📘 **Full Documentation**: Available in [`documentation.md`](documentation.md)
+
+---
+
+## 🖥️ Project Structure
+
+```bash
 Sanscript/
+├── index.html               # Web UI playground
 ├── modules/
-│   ├── tokenizer.py         # Tokenizes the Sanskrit code  
-│   ├── parser.py            # Generates the AST  
-│   ├── validator.py         # Validates the AST  
-│   ├── codegenerator.py     # Converts AST to Python  
-│   ├── executor.py          # Executes the generated Python code  
-|   └── design.bnf           # Syntax specification in BNF format  
-├── documentation.md         # Detailed language documentation  
-├── fonts                    # custom fonts
-├── index.html               # Frontend for the playground  
-├── styles/                  # CSS for the website design  
-├── scripts/                 # JS for the frontend logic  
-├── LICENSE                  # License information  
-├── .gitignore
-└── README.md                # Project overview and guide  
+│   ├── tokenizer.py         # Token processor
+│   ├── parser.py            # AST generator
+│   ├── validator.py         # AST validator
+│   ├── codegenerator.py     # Converts AST to Python
+│   ├── executor.py          # Executes code
+│   └── design.bnf           # BNF grammar rules
+├── documentation.md         # Language documentation
+├── styles/                  # CSS files
+├── scripts/                 # JS logic
+├── fonts/                   # Fonts used in UI
+├── .gitignore               # Git ignore file
+├── LICENSE                  # MIT License
+└── README.md                # This file
 ```
 
 ---
 
-## 🚀 Getting Started  
+## 🚀 Getting Started
 
-### Clone the Repository  
+### Clone the Repository
+
 ```bash
 git clone https://github.com/RishiDalvi/Sanscript.git
 cd Sanscript
 ```
 
-### Running Locally  
-1. **Install Python dependencies**:  
-   Ensure you have Python installed.  
-   ```bash
-   pip install -r requirements.txt
-   ```  
+### Install Dependencies
 
-2. **Run locally**:  
-   Execute the modules manually for testing and experimentation.  
+```bash
+pip install -r requirements.txt
+```
 
-### Online Playground  
-Visit the official [Sanscript Playground](https://sanscript.netlify.app/) to write and execute Sanscript programs directly in your browser.
+> You must have Python installed to run backend modules locally.
 
 ---
 
-## 📜 Syntax and Documentation  
-For a comprehensive guide to Sanscript's syntax, keywords, and examples, refer to [`documentation.md`](documentation.md)
+## 🌐 Running the Playground
+
+You can:
+- Use the live editor at [sanscript.netlify.app](https://sanscript.netlify.app/)
+- Or open `index.html` locally in a browser
+- All code execution happens **client-side** using Pyodide (no server needed)
 
 ---
 
-## 🌐 Website Features  
-- **Code Editor**: Write Sanscript programs in a syntax-highlighted editor.  
-- **Execution Engine**: Run programs directly in the browser using Pyodide.  
-- **Thematic Design**: An old-paper style vintage theme for aesthetics.  
+## 📜 Syntax Highlights
+
+```sanskrit
+कार्य मुख्यः() {
+    चरः संख्या = 10;
+    यदि (संख्या > 5) {
+        मुद्रणम्("संख्या बड़ी है");
+    } अन्यथा {
+        मुद्रणम्("संख्या छोटी है");
+    }
+}
+```
+
+> See [`documentation.md`](documentation.md) for all supported keywords, AST formats, and examples.
 
 ---
 
-## 📂 Contributing  
+## 👨‍💻 Contributing
 
-We welcome contributions! Here’s how you can help:  
-1. Fork the repository.  
-2. Create a new branch for your feature/bugfix.  
-3. Submit a pull request with detailed descriptions.  
+We welcome contributions from the open-source community.
 
-Please ensure that your code adheres to the coding standards and includes necessary tests where applicable.  
+### How to Contribute
+
+1. **Fork** this repository
+2. Create a **feature branch** (`git checkout -b feature-name`)
+3. Commit your changes (`git commit -m "feat: describe your change"`)
+4. Push to your fork (`git push origin feature-name`)
+5. Create a **Pull Request**
+
+> Please ensure your code follows existing styles and include test cases if needed.
 
 ---
 
-## 🛡️ License  
+## 🛡 License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.  
+This project is licensed under the **MIT License**.  
+You are free to use, modify, and distribute it with attribution.
+
+See [`LICENSE`](LICENSE) for full details.
 
 ---
 
-## 📞 Support  
+## 📞 Support
 
-If you have any questions, suggestions, or issues, feel free to create an issue in the repository or contact us at[rishi_master@proton.me].  
+Have questions, suggestions, or issues?
+
+- 📬 Email: [rishi_master@proton.me](mailto:rishi_master@proton.me)
+- 🐞 Report Bugs: [GitHub Issues](https://github.com/RishiDalvi/Sanscript/issues)
+- 📢 Feedback and PRs are welcome anytime!
+
+---
+
+## 🙏 Credits
+
+Created with 💖 by [Rushikesh Dalavi](https://www.linkedin.com/in/rushikesh-dalavi/)  
+Maintained by [TechMate Labs](https://www.techmatelabs.in/)
+
+---
+
+## 📌 Related Links
+
+- 🔗 [Documentation](https://sanscript.netlify.app/#documentation)
+- 🧠 [Pyodide](https://pyodide.org/)
+- 🐙 [GitHub Repository](https://github.com/RishiDalvi/Sanscript)
+- 🚀 [Live Playground](https://sanscript.netlify.app/)
